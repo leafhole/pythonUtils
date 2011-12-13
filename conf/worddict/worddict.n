@@ -1,0 +1,8 @@
+wsblen : 1919824
+phblen : 1749930
+tgblen : 1352875
+lemmanum : 247197
+dentrynum : 1702729
+flags : 1
+de_offset : 1302728
+dictsize : 400001
