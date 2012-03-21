@@ -38,11 +38,11 @@
 
 # Code:
 import MySQLdb
-from unilog import unilogger
+#from unilog import unilogger
 
 def dbcon(host,name,user,password,port_num=3306):
     #print "connectiong2 ", host,   user,   password,port_num
-    unilogger.info('connect mysql://%s:%s@%s:%d/%s' % (user,'*'*len(password),host,port_num,name))
+    #unilogger.info('connect mysql://%s:%s@%s:%d/%s' % (user,'*'*len(password),host,port_num,name))
     db  = MySQLdb.connect(host=host,   user=user,   passwd=password,   db=name,charset="utf8",port=port_num)
     cur = db.cursor()
     return db,cur

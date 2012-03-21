@@ -20,3 +20,11 @@ def init_logger(name, logfile_name=None):
     logger.addHandler(ch)
     return logger
 
+def Main():
+    logger = init_logger("test","logTest")
+    logger.debug("it a log")
+    pass
+
+
+if __name__ == "__main__":
+    Main()
