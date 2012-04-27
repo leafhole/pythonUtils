@@ -39,7 +39,7 @@ import urllib2
 import urllib
 import os
 import sys
-def download_url(url = ""):
+def downloadUrl(url = ""):
     """
     """
     import httplib
@@ -54,7 +54,7 @@ def download_url(url = ""):
 
 def Main():
     url = sys.argv[1]
-    print download_url(url )
+    print downloadUrl(url )
     pass
 
 if __name__ == "__main__":
